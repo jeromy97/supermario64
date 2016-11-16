@@ -15,6 +15,6 @@ public class GoombaController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        rb.velocity = new Vector3(speed, 0.0f, 0.0f);
+        rb.velocity = new Vector3(speed, rb.velocity.y, 0.0f);
 	}
 }
