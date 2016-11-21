@@ -1,0 +1,1843 @@
+fileFormatVersion: 2
+guid: 96b5afd99584e354eabef93be110ecb8
+timeCreated: 1479720099
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ankle_L
+    100002: ankle_R
+    100004: Armature
+    100006: breath
+    100008: breath_end
+    100010: brow_l1
+    100012: brow_l2
+    100014: brow_l3
+    100016: brow_l4
+    100018: brow_l4_end
+    100020: brow_r1
+    100022: brow_r2
+    100024: brow_r3
+    100026: brow_r4
+    100028: brow_r4_end
+    100030: Camera
+    100032: cap_1
+    100034: cap_2
+    100036: cap_2_end
+    100038: clavi_L
+    100040: clavi_R
+    100042: ConSkl
+    100044: cvMove_all
+    100046: efp_sklroot
+    100048: efp_sklroot_end
+    100050: elbow_L
+    100052: elbow_R
+    100054: eye_l
+    100056: eye_l2
+    100058: eye_l2_end
+    100060: eye_r
+    100062: eye_r2
+    100064: eye_r2_end
+    100066: face
+    100068: face2
+    100070: foot_position
+    100072: foot_position_end
+    100074: globe_deform
+    100076: globe_deform_end
+    100078: hair_front_L1
+    100080: hair_front_L1_end
+    100082: hair_front_M1
+    100084: hair_front_M1_end
+    100086: hair_front_R1
+    100088: hair_front_R1_end
+    100090: hair_root
+    100092: hair_top_B1
+    100094: hair_top_B1_end
+    100096: hair_top_F1
+    100098: hair_top_F1_end
+    100100: hair_top_root
+    100102: hip_1
+    100104: hip_2
+    100106: hip_3
+    100108: hip_L
+    100110: hip_R
+    100112: index_L1
+    100114: index_L2
+    100116: index_L3
+    100118: index_L3_end
+    100120: index_R1
+    100122: index_R2
+    100124: index_R3
+    100126: index_R3_end
+    100128: knee_L
+    100130: knee_R
+    100132: Lamp
+    100134: lip_lower1
+    100136: lip_lower1_end
+    100138: lip_upper1
+    100140: lip_upper1_end
+    100142: //RootNode
+    100144: Mario
+    100146: middle_L1
+    100148: middle_L2
+    100150: middle_L3
+    100152: middle_L3_end
+    100154: middle_R1
+    100156: middle_R2
+    100158: middle_R3
+    100160: middle_R3_end
+    100162: mouth_1
+    100164: mouth_corner
+    100166: mouth_corner_end
+    100168: mouth_root
+    100170: mouth_up_1
+    100172: mustache_L1
+    100174: mustache_L2
+    100176: mustache_L3
+    100178: mustache_L3_end
+    100180: mustache_R1
+    100182: mustache_R2
+    100184: mustache_R3
+    100186: mustache_R3_end
+    100188: neck
+    100190: nose_1
+    100192: nose_1_end
+    100194: pinky_L1
+    100196: pinky_L2
+    100198: pinky_L3
+    100200: pinky_L3_end
+    100202: pinky_R1
+    100204: pinky_R2
+    100206: pinky_R3
+    100208: pinky_R3_end
+    100210: racket_all
+    100212: racket_bottom
+    100214: racket_center
+    100216: racket_grip
+    100218: racket_rotate
+    100220: racket_top
+    100222: racket_top_end
+    100224: ring_L1
+    100226: ring_L2
+    100228: ring_L3
+    100230: ring_L3_end
+    100232: ring_R1
+    100234: ring_R2
+    100236: ring_R3
+    100238: ring_R3_end
+    100240: rotate_all_ex1
+    100242: scale_all
+    100244: server_mark
+    100246: server_mark_end
+    100248: shoulder_L
+    100250: shoulder_R
+    100252: skl_root
+    100254: spine_1
+    100256: spine_2
+    100258: thigh_L
+    100260: thigh_R
+    100262: thumb_L1
+    100264: thumb_L2
+    100266: thumb_L3
+    100268: thumb_L3_end
+    100270: thumb_R1
+    100272: thumb_R2
+    100274: thumb_R3
+    100276: thumb_R3_end
+    100278: toe_L1
+    100280: toe_R1
+    100282: toe_R1_end
+    100284: tongue_1
+    100286: tongue_2
+    100288: tongue_3
+    100290: tongue_4
+    100292: tongue_4_end
+    100294: tooth_bottom1
+    100296: tooth_bottom2
+    100298: tooth_bottom2_end
+    100300: toss_up
+    100302: toss_up_end
+    100304: wrist_L
+    100306: wrist_R
+    100308: wristRing_L
+    100310: wristRing_L_end
+    100312: wristRing_R
+    100314: wristRing_R_end
+    400000: ankle_L
+    400002: ankle_R
+    400004: Armature
+    400006: breath
+    400008: breath_end
+    400010: brow_l1
+    400012: brow_l2
+    400014: brow_l3
+    400016: brow_l4
+    400018: brow_l4_end
+    400020: brow_r1
+    400022: brow_r2
+    400024: brow_r3
+    400026: brow_r4
+    400028: brow_r4_end
+    400030: Camera
+    400032: cap_1
+    400034: cap_2
+    400036: cap_2_end
+    400038: clavi_L
+    400040: clavi_R
+    400042: ConSkl
+    400044: cvMove_all
+    400046: efp_sklroot
+    400048: efp_sklroot_end
+    400050: elbow_L
+    400052: elbow_R
+    400054: eye_l
+    400056: eye_l2
+    400058: eye_l2_end
+    400060: eye_r
+    400062: eye_r2
+    400064: eye_r2_end
+    400066: face
+    400068: face2
+    400070: foot_position
+    400072: foot_position_end
+    400074: globe_deform
+    400076: globe_deform_end
+    400078: hair_front_L1
+    400080: hair_front_L1_end
+    400082: hair_front_M1
+    400084: hair_front_M1_end
+    400086: hair_front_R1
+    400088: hair_front_R1_end
+    400090: hair_root
+    400092: hair_top_B1
+    400094: hair_top_B1_end
+    400096: hair_top_F1
+    400098: hair_top_F1_end
+    400100: hair_top_root
+    400102: hip_1
+    400104: hip_2
+    400106: hip_3
+    400108: hip_L
+    400110: hip_R
+    400112: index_L1
+    400114: index_L2
+    400116: index_L3
+    400118: index_L3_end
+    400120: index_R1
+    400122: index_R2
+    400124: index_R3
+    400126: index_R3_end
+    400128: knee_L
+    400130: knee_R
+    400132: Lamp
+    400134: lip_lower1
+    400136: lip_lower1_end
+    400138: lip_upper1
+    400140: lip_upper1_end
+    400142: Mario
+    400144: //RootNode
+    400146: middle_L1
+    400148: middle_L2
+    400150: middle_L3
+    400152: middle_L3_end
+    400154: middle_R1
+    400156: middle_R2
+    400158: middle_R3
+    400160: middle_R3_end
+    400162: mouth_1
+    400164: mouth_corner
+    400166: mouth_corner_end
+    400168: mouth_root
+    400170: mouth_up_1
+    400172: mustache_L1
+    400174: mustache_L2
+    400176: mustache_L3
+    400178: mustache_L3_end
+    400180: mustache_R1
+    400182: mustache_R2
+    400184: mustache_R3
+    400186: mustache_R3_end
+    400188: neck
+    400190: nose_1
+    400192: nose_1_end
+    400194: pinky_L1
+    400196: pinky_L2
+    400198: pinky_L3
+    400200: pinky_L3_end
+    400202: pinky_R1
+    400204: pinky_R2
+    400206: pinky_R3
+    400208: pinky_R3_end
+    400210: racket_all
+    400212: racket_bottom
+    400214: racket_center
+    400216: racket_grip
+    400218: racket_rotate
+    400220: racket_top
+    400222: racket_top_end
+    400224: ring_L1
+    400226: ring_L2
+    400228: ring_L3
+    400230: ring_L3_end
+    400232: ring_R1
+    400234: ring_R2
+    400236: ring_R3
+    400238: ring_R3_end
+    400240: rotate_all_ex1
+    400242: scale_all
+    400244: server_mark
+    400246: server_mark_end
+    400248: shoulder_L
+    400250: shoulder_R
+    400252: skl_root
+    400254: spine_1
+    400256: spine_2
+    400258: thigh_L
+    400260: thigh_R
+    400262: thumb_L1
+    400264: thumb_L2
+    400266: thumb_L3
+    400268: thumb_L3_end
+    400270: thumb_R1
+    400272: thumb_R2
+    400274: thumb_R3
+    400276: thumb_R3_end
+    400278: toe_L1
+    400280: toe_R1
+    400282: toe_R1_end
+    400284: tongue_1
+    400286: tongue_2
+    400288: tongue_3
+    400290: tongue_4
+    400292: tongue_4_end
+    400294: tooth_bottom1
+    400296: tooth_bottom2
+    400298: tooth_bottom2_end
+    400300: toss_up
+    400302: toss_up_end
+    400304: wrist_L
+    400306: wrist_R
+    400308: wristRing_L
+    400310: wristRing_L_end
+    400312: wristRing_R
+    400314: wristRing_R_end
+    4300000: Mario
+    7400000: Armature|ArmatureAction
+    7400002: Armature|ArmatureAction.001
+    9500000: //RootNode
+    13700000: Mario
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/scale_all
+        weight: 1
+      - path: Armature/scale_all/cvMove_all
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/efp_sklroot
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/efp_sklroot/efp_sklroot_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L/knee_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L/knee_L/ankle_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L/knee_L/ankle_L/toe_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L/knee_L/ankle_L/toe_L1/foot_position
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L/knee_L/ankle_L/toe_L1/foot_position/foot_position_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R/thigh_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R/thigh_R/knee_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R/thigh_R/knee_R/ankle_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R/thigh_R/knee_R/ankle_R/toe_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R/thigh_R/knee_R/ankle_R/toe_R1/toe_R1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/index_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/index_L1/index_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/index_L1/index_L2/index_L3/index_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/middle_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/middle_L1/middle_L2/middle_L3/middle_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/pinky_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/pinky_L1/pinky_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/pinky_L1/pinky_L2/pinky_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/pinky_L1/pinky_L2/pinky_L3/pinky_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/ring_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/ring_L1/ring_L2/ring_L3/ring_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/thumb_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/thumb_L1/thumb_L2/thumb_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/thumb_L1/thumb_L2/thumb_L3/thumb_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/toss_up
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/toss_up/toss_up_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wristRing_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wristRing_L/wristRing_L_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/globe_deform
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/globe_deform/globe_deform_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/index_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/index_R1/index_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/index_R1/index_R2/index_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/index_R1/index_R2/index_R3/index_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/middle_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/middle_R1/middle_R2/middle_R3/middle_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/pinky_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/pinky_R1/pinky_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/pinky_R1/pinky_R2/pinky_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/pinky_R1/pinky_R2/pinky_R3/pinky_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom/racket_grip
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom/racket_grip/racket_rotate
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom/racket_grip/racket_rotate/racket_center
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom/racket_grip/racket_rotate/racket_center/racket_top
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom/racket_grip/racket_rotate/racket_center/racket_top/racket_top_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/ring_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/ring_R1/ring_R2/ring_R3/ring_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/thumb_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/thumb_R1/thumb_R2/thumb_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/thumb_R1/thumb_R2/thumb_R3/thumb_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wristRing_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wristRing_R/wristRing_R_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/breath
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/breath/breath_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_l1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_l1/brow_l2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_l1/brow_l2/brow_l3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_l1/brow_l2/brow_l3/brow_l4
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_l1/brow_l2/brow_l3/brow_l4/brow_l4_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_r1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_r1/brow_r2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_r1/brow_r2/brow_r3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_r1/brow_r2/brow_r3/brow_r4
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_r1/brow_r2/brow_r3/brow_r4/brow_r4_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/cap_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/cap_1/cap_2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/cap_1/cap_2/cap_2_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_l
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_l/eye_l2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_l/eye_l2/eye_l2_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_r
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_r/eye_r2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_r/eye_r2/eye_r2_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_L1/hair_front_L1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_M1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_M1/hair_front_M1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_R1/hair_front_R1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_top_root
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_top_root/hair_top_B1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_top_root/hair_top_B1/hair_top_B1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_top_root/hair_top_F1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_top_root/hair_top_F1/hair_top_F1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/lip_lower1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/lip_lower1/lip_lower1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/mouth_corner
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/mouth_corner/mouth_corner_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tongue_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tongue_1/tongue_2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tongue_1/tongue_2/tongue_3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tongue_1/tongue_2/tongue_3/tongue_4
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tongue_1/tongue_2/tongue_3/tongue_4/tongue_4_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tooth_bottom1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tooth_bottom1/tooth_bottom2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tooth_bottom1/tooth_bottom2/tooth_bottom2_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_up_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_up_1/lip_upper1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_up_1/lip_upper1/lip_upper1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_L1/mustache_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_L1/mustache_L2/mustache_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_L1/mustache_L2/mustache_L3/mustache_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_R1/mustache_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_R1/mustache_R2/mustache_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_R1/mustache_R2/mustache_R3/mustache_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/nose_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/nose_1/nose_1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/server_mark
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/server_mark/server_mark_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Mario
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ArmatureAction.001
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/scale_all
+        weight: 1
+      - path: Armature/scale_all/cvMove_all
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/efp_sklroot
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/efp_sklroot/efp_sklroot_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L/knee_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L/knee_L/ankle_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L/knee_L/ankle_L/toe_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L/knee_L/ankle_L/toe_L1/foot_position
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_L/thigh_L/knee_L/ankle_L/toe_L1/foot_position/foot_position_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R/thigh_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R/thigh_R/knee_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R/thigh_R/knee_R/ankle_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R/thigh_R/knee_R/ankle_R/toe_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/hip_1/hip_2/hip_3/hip_R/thigh_R/knee_R/ankle_R/toe_R1/toe_R1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/index_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/index_L1/index_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/index_L1/index_L2/index_L3/index_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/middle_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/middle_L1/middle_L2/middle_L3/middle_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/pinky_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/pinky_L1/pinky_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/pinky_L1/pinky_L2/pinky_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/pinky_L1/pinky_L2/pinky_L3/pinky_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/ring_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/ring_L1/ring_L2/ring_L3/ring_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/thumb_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/thumb_L1/thumb_L2/thumb_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/thumb_L1/thumb_L2/thumb_L3/thumb_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/toss_up
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wrist_L/toss_up/toss_up_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wristRing_L
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_L/shoulder_L/elbow_L/wristRing_L/wristRing_L_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/globe_deform
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/globe_deform/globe_deform_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/index_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/index_R1/index_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/index_R1/index_R2/index_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/index_R1/index_R2/index_R3/index_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/middle_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/middle_R1/middle_R2/middle_R3/middle_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/pinky_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/pinky_R1/pinky_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/pinky_R1/pinky_R2/pinky_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/pinky_R1/pinky_R2/pinky_R3/pinky_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom/racket_grip
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom/racket_grip/racket_rotate
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom/racket_grip/racket_rotate/racket_center
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom/racket_grip/racket_rotate/racket_center/racket_top
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/racket_all/racket_bottom/racket_grip/racket_rotate/racket_center/racket_top/racket_top_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/ring_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/ring_R1/ring_R2/ring_R3/ring_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/thumb_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/thumb_R1/thumb_R2/thumb_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wrist_R/thumb_R1/thumb_R2/thumb_R3/thumb_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wristRing_R
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/clavi_R/shoulder_R/elbow_R/wristRing_R/wristRing_R_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/breath
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/breath/breath_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_l1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_l1/brow_l2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_l1/brow_l2/brow_l3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_l1/brow_l2/brow_l3/brow_l4
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_l1/brow_l2/brow_l3/brow_l4/brow_l4_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_r1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_r1/brow_r2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_r1/brow_r2/brow_r3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_r1/brow_r2/brow_r3/brow_r4
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/brow_r1/brow_r2/brow_r3/brow_r4/brow_r4_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/cap_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/cap_1/cap_2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/cap_1/cap_2/cap_2_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_l
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_l/eye_l2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_l/eye_l2/eye_l2_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_r
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_r/eye_r2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/eye_r/eye_r2/eye_r2_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_L1/hair_front_L1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_M1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_M1/hair_front_M1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_front_R1/hair_front_R1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_top_root
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_top_root/hair_top_B1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_top_root/hair_top_B1/hair_top_B1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_top_root/hair_top_F1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/hair_root/hair_top_root/hair_top_F1/hair_top_F1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/lip_lower1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/lip_lower1/lip_lower1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/mouth_corner
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/mouth_corner/mouth_corner_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tongue_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tongue_1/tongue_2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tongue_1/tongue_2/tongue_3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tongue_1/tongue_2/tongue_3/tongue_4
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tongue_1/tongue_2/tongue_3/tongue_4/tongue_4_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tooth_bottom1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tooth_bottom1/tooth_bottom2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_1/tooth_bottom1/tooth_bottom2/tooth_bottom2_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_up_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_up_1/lip_upper1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mouth_root/mouth_up_1/lip_upper1/lip_upper1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_L1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_L1/mustache_L2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_L1/mustache_L2/mustache_L3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_L1/mustache_L2/mustache_L3/mustache_L3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_R1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_R1/mustache_R2
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_R1/mustache_R2/mustache_R3
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/mustache_R1/mustache_R2/mustache_R3/mustache_R3_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/nose_1
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/nose_1/nose_1_end
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/server_mark
+        weight: 1
+      - path: Armature/scale_all/cvMove_all/ConSkl/rotate_all_ex1/skl_root/spine_1/spine_2/neck/face/face2/server_mark/server_mark_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Mario
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: 49ef5d210a70887448fcd0ae79c83ba8, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: thigh_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe_L1
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe_R1
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavi_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavi_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: skl_root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: face2
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye_l
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: eye_r
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mouth_root
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Mario(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: scale_all
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000015695824, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: cvMove_all
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ConSkl
+      position: {x: -0, y: 0.164338, z: -0.01016}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: rotate_all_ex1
+      position: {x: -0, y: -0.024543282, z: 0.073044054}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: skl_root
+      position: {x: -0, y: 0.024543282, z: -0.073044054}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: efp_sklroot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hip_1
+      position: {x: -0, y: -0.0025399975, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hip_2
+      position: {x: -0, y: -0.011561068, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hip_3
+      position: {x: -0, y: -0.032885637, z: 0.000000001513958}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hip_L
+      position: {x: -0.01016, y: 0.020320004, z: 0.005782817}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh_L
+      position: {x: -0.01905, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee_L
+      position: {x: -0, y: -0.056525413, z: 0.00025399975}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ankle_L
+      position: {x: -0, y: -0.040919397, z: -0.00017525993}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: toe_L1
+      position: {x: -0, y: -0.021208996, z: 0.03479546}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: foot_position
+      position: {x: -0.03644468, y: -0.019017411, z: 0.0073237596}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hip_R
+      position: {x: 0.01016, y: 0.020320004, z: 0.005782817}
+      rotation: {x: 1, y: -0, z: 0, w: -0.00000019470718}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh_R
+      position: {x: 0.01905, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee_R
+      position: {x: -0, y: 0.056525413, z: -0.00025399975}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ankle_R
+      position: {x: -0, y: 0.040919397, z: 0.00017525993}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: toe_R1
+      position: {x: -0, y: 0.021209, z: -0.03479546}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine_1
+      position: {x: -0, y: 0.0025399975, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine_2
+      position: {x: -0, y: 0.026673298, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavi_L
+      position: {x: -0.0076200003, y: 0.020320004, z: 0.0025400014}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder_L
+      position: {x: -0.03556, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_L
+      position: {x: -0.0380492, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wrist_L
+      position: {x: -0.04280814, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: index_L1
+      position: {x: -0.04036822, y: 0.012699903, z: 0.020320356}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: index_L2
+      position: {x: -0.012090395, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: index_L3
+      position: {x: -0.0109982025, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: middle_L1
+      position: {x: -0.04128669, y: 0.015561114, z: 0.006251701}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: middle_L2
+      position: {x: -0.013614394, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: middle_L3
+      position: {x: -0.012598395, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pinky_L1
+      position: {x: -0.038570914, y: 0.012699927, z: -0.021878343}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pinky_L2
+      position: {x: -0.008864599, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pinky_L3
+      position: {x: -0.008813803, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ring_L1
+      position: {x: -0.03967023, y: 0.015476963, z: -0.008362998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ring_L2
+      position: {x: -0.013572839, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ring_L3
+      position: {x: -0.011675995, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb_L1
+      position: {x: -0.0050799465, y: -0.010168541, z: 0.0152401}
+      rotation: {x: 0.70710665, y: 0, z: -0, w: 0.7071069}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb_L2
+      position: {x: -0.024845565, y: 0.014344597, z: 0.000000048446655}
+      rotation: {x: 0, y: 0, z: -0.2614228, w: 0.9652244}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb_L3
+      position: {x: -0.013414769, y: -0.000072373245, z: 0}
+      rotation: {x: 0, y: 0, z: -8.586771e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: toss_up
+      position: {x: -0.040563803, y: -0.012319003, z: 0.0056806076}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wristRing_L
+      position: {x: -0.035749998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavi_R
+      position: {x: 0.0076200003, y: 0.020320076, z: 0.0025400014}
+      rotation: {x: 1, y: -0, z: 0, w: -0.00000019470718}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder_R
+      position: {x: 0.03556, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_R
+      position: {x: 0.0380492, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wrist_R
+      position: {x: 0.04280814, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: globe_deform
+      position: {x: 0.032902654, y: 0.004098684, z: 0.02242754}
+      rotation: {x: 1, y: 0, z: -0, w: 0.00000019470718}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: index_R1
+      position: {x: 0.04036822, y: -0.0126997335, z: -0.020320356}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: index_R2
+      position: {x: 0.012090395, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: index_R3
+      position: {x: 0.0109982025, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: middle_R1
+      position: {x: 0.04128669, y: -0.015561066, z: -0.006251676}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: middle_R2
+      position: {x: 0.013614394, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: middle_R3
+      position: {x: 0.012598395, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pinky_R1
+      position: {x: 0.038570914, y: -0.012699758, z: 0.021878295}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pinky_R2
+      position: {x: 0.008864599, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pinky_R3
+      position: {x: 0.008813803, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: racket_all
+      position: {x: 0.044717714, y: 0.0030086099, z: 0.035991803}
+      rotation: {x: 1, y: 0, z: -0, w: 0.00000019470718}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: racket_bottom
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: racket_grip
+      position: {x: -0, y: 0, z: 0.0436118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: racket_rotate
+      position: {x: -0, y: 0, z: 0.10832312}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: racket_center
+      position: {x: -0.000000024223327, y: 0.0000059347153, z: 0.06669583}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: racket_top
+      position: {x: 0.000000024223327, y: 0, z: 0.07321548}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ring_R1
+      position: {x: 0.03967023, y: -0.015476987, z: 0.008362998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ring_R2
+      position: {x: 0.013572742, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ring_R3
+      position: {x: 0.011676128, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb_R1
+      position: {x: 0.005079995, y: 0.010168638, z: -0.0152401}
+      rotation: {x: 0.70710665, y: 0, z: -0, w: 0.7071069}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb_R2
+      position: {x: 0.024845516, y: -0.014344573, z: 0}
+      rotation: {x: 0, y: 0, z: -0.2614228, w: 0.9652244}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb_R3
+      position: {x: 0.013414818, y: 0.00007227635, z: 0}
+      rotation: {x: 0, y: 0, z: -1.2382886e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: wristRing_R
+      position: {x: 0.035749998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: neck
+      position: {x: -0, y: 0.0381, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: face
+      position: {x: -0, y: 0.02285999, z: 0.000000001513958}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: face2
+      position: {x: -0, y: 0, z: 0.0381}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: breath
+      position: {x: -0, y: -0.009652027, z: 0.038100004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: brow_l1
+      position: {x: -0.010477881, y: 0.055909667, z: 0.02597785}
+      rotation: {x: -0.019871943, y: -0.0389799, z: -0.45374984, w: 0.89005435}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: brow_l2
+      position: {x: -0.012689075, y: 0, z: -0.000000012111664}
+      rotation: {x: 0.04466468, y: -0.16230097, z: 0.26154643, w: 0.9503983}
+      scale: {x: 1.0000002, y: 1, z: 1}
+      transformModified: 1
+    - name: brow_l3
+      position: {x: -0.012406365, y: 0, z: -0.000000024223327}
+      rotation: {x: 0.06372847, y: -0.104916036, z: 0.515227, w: 0.8482172}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: brow_l4
+      position: {x: -0.012940658, y: -0.000000048446655, z: 0}
+      rotation: {x: 0.000000013038516, y: -0.00000001955778, z: -0.00000005960466,
+        w: 1}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999998}
+      transformModified: 1
+    - name: brow_r1
+      position: {x: 0.010477881, y: 0.055909667, z: 0.02597785}
+      rotation: {x: 0.89005435, y: 0.4537499, z: -0.03897979, w: 0.019872123}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: brow_r2
+      position: {x: 0.012689075, y: 0.000000012111664, z: 0.000000006055832}
+      rotation: {x: 0.044664685, y: -0.16230103, z: 0.26154634, w: 0.9503983}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: brow_r3
+      position: {x: 0.012406365, y: -0.000000072669984, z: 0}
+      rotation: {x: 0.06372856, y: -0.10491597, z: 0.5152275, w: 0.84821695}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1}
+      transformModified: 1
+    - name: brow_r4
+      position: {x: 0.0129406825, y: 0, z: 0}
+      rotation: {x: -0.000000049360096, y: 0.000000009313225, z: 4.5970167e-16, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: cap_1
+      position: {x: -0, y: 0.050799973, z: -0.038099993}
+      rotation: {x: 0.25881925, y: 0, z: -0, w: 0.9659258}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: cap_2
+      position: {x: -0, y: 0.05052647, z: 0.026554422}
+      rotation: {x: -0.25881925, y: 0, z: -0, w: 0.9659258}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eye_l
+      position: {x: -0.018077968, y: 0.03986961, z: -0.0041941465}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eye_l2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eye_r
+      position: {x: 0.0180848, y: 0.03986961, z: -0.0041941465}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eye_r2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair_root
+      position: {x: -0, y: 0.04859575, z: -0.04564176}
+      rotation: {x: -0.30070573, y: 0, z: -0, w: 0.953717}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair_front_L1
+      position: {x: -0.03556, y: 0.009737729, z: 0.056119017}
+      rotation: {x: 0.2961375, y: 0.16561101, z: 0.052217215, w: 0.9392278}
+      scale: {x: 1, y: 0.9999998, z: 1}
+      transformModified: 1
+    - name: hair_front_M1
+      position: {x: -0.00508, y: 0.009737729, z: 0.056119017}
+      rotation: {x: 0.29045972, y: 0.24683996, z: 0.07782824, w: 0.9212198}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: hair_front_R1
+      position: {x: 0.02032, y: 0.009737729, z: 0.056119017}
+      rotation: {x: 0.26672903, y: 0.44037786, z: 0.13885066, w: 0.84595716}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: hair_top_root
+      position: {x: -0.0012482322, y: 0.052399706, z: -0.00031610232}
+      rotation: {x: 0.6427875, y: 0, z: -0, w: 0.76604456}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair_top_B1
+      position: {x: -0.0009121139, y: -0.0010150785, z: -0.0010660444}
+      rotation: {x: 0.07570552, y: 0.8694962, z: -0.4327647, w: -0.22574246}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: hair_top_F1
+      position: {x: 0.00077442056, y: 0.0015253671, z: -0.00012860165}
+      rotation: {x: -0.32537767, y: -0.24427973, z: -0.17491646, w: 0.89658296}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: mouth_root
+      position: {x: -0, y: 0.009140745, z: -0.038354}
+      rotation: {x: 0.069756314, y: 0, z: -0, w: 0.9975641}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: mouth_1
+      position: {x: -0, y: -0.0007636162, z: 0.0054937387}
+      rotation: {x: 0.06104854, y: 0, z: -0, w: 0.99813485}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lip_lower1
+      position: {x: -0, y: -0.00000009689331, z: 0.058420017}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: mouth_corner
+      position: {x: -0, y: 0.00007034454, z: 0.00026260508}
+      rotation: {x: -0.13052593, y: 0, z: -0, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: tongue_1
+      position: {x: -0, y: -0.013128995, z: 0.029398466}
+      rotation: {x: -0.13052593, y: 0, z: -0, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: tongue_2
+      position: {x: -0, y: 0, z: 0.010225153}
+      rotation: {x: 0.04361916, y: 0, z: -0, w: 0.99904823}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: tongue_3
+      position: {x: -0, y: -0.000000048446655, z: 0.00988995}
+      rotation: {x: 0.087155774, y: 0, z: -0, w: 0.9961947}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: tongue_4
+      position: {x: -0, y: 0.0011064247, z: 0.0126467785}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+      transformModified: 1
+    - name: tooth_bottom1
+      position: {x: -0, y: -0.0008247559, z: 0.038294815}
+      rotation: {x: 0.18223548, y: 0, z: -0, w: 0.9832549}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: tooth_bottom2
+      position: {x: -0, y: -0.008120047, z: 0.02499082}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: mouth_up_1
+      position: {x: -0, y: 0, z: 0.005080004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lip_upper1
+      position: {x: -0, y: -0.000000024223327, z: 0.06858001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: mustache_L1
+      position: {x: -0.00254, y: 0.0076199807, z: 0.040322497}
+      rotation: {x: -0.006415082, y: -0.070500955, z: -0.09039113, w: 0.9933871}
+      scale: {x: 1.0000002, y: 1, z: 1}
+      transformModified: 1
+    - name: mustache_L2
+      position: {x: -0.013921379, y: 0.000000048446655, z: -0.000000012111664}
+      rotation: {x: -0.0030424832, y: -0.05862885, z: -0.051734887, w: 0.99693376}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999999}
+      transformModified: 1
+    - name: mustache_L3
+      position: {x: -0.015956584, y: -0.000000072669984, z: -0.000000006055832}
+      rotation: {x: -0.035745926, y: -0.13340555, z: -0.25633878, w: 0.95666903}
+      scale: {x: 1, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: mustache_R1
+      position: {x: 0.00254, y: 0.0076193023, z: 0.040322497}
+      rotation: {x: 0.9933871, y: 0.090391204, z: -0.07050105, w: 0.0064149005}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: mustache_R2
+      position: {x: 0.013921667, y: -0.0000016471863, z: -0.00000018167495}
+      rotation: {x: -0.003042484, y: -0.058628835, z: -0.051734883, w: 0.99693376}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: mustache_R3
+      position: {x: 0.01595653, y: 0.0000004360199, z: 0.00000017561912}
+      rotation: {x: -0.035746012, y: -0.13340603, z: -0.25633878, w: 0.956669}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: nose_1
+      position: {x: -0, y: 0.020319955, z: 0.03165475}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: server_mark
+      position: {x: -0, y: 0.15240002, z: -0.02794}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 3cc5905e8d7b26e4a870ba8a851e6915,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
