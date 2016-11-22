@@ -24,7 +24,7 @@ public class playerController : MonoBehaviour {
                 Health health = target.GetComponent<Health>();
                 if (health != null)
                 {
-                    health.TakeDamage(0);
+                    health.TakeDamage(100);
                 }
 
                 if (target.tag.ToString() == "Goomba")
