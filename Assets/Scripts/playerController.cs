@@ -27,7 +27,7 @@ public class playerController : MonoBehaviour {
                     health.TakeDamage(0);
                 }
 
-                if (target.name.ToString() == "Goomba")
+                if (target.tag.ToString() == "Goomba")
                 {
                     //Gooi naar achter
                     print("HET IS EEN GOOMBA VERDOMME");
