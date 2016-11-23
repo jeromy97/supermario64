@@ -1,12 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class playerController : MonoBehaviour {
 
+    private int coins;
+    private int stars;
+    private int lifes;
+
     public Animator anim;
+
+    public Text coinText;
+    public Text starText;
+    public Text lifeText;
+
     // Use this for initialization
     void Start () {
-	
+        coins = 0;
+        stars = 0;
+        lifes = 3;
+
+        setCoinText();
+        setStarText();
+        setLifesText();
 	}
 	
 	// Update is called once per frame
@@ -51,7 +67,24 @@ public class playerController : MonoBehaviour {
         if (other.gameObject.CompareTag("coin"))
         {
             other.gameObject.SetActive(false);
+            coins++;
+            setCoinText();
         }
     }
+
+    void setCoinText()
+    {
+        coinText.text = "Coins: " + coins.ToString();
+    }
+
+    void setStarText()
+    {
+        starText.text = "Stars: " + stars.ToString();
+    }
+    void setLifesText()
+    {
+        lifeText.text = "Lifes: " + lifes.ToString();
+    }
+
 
 }
