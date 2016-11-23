@@ -40,7 +40,7 @@ public class playerController : MonoBehaviour {
                 Health health = target.GetComponent<Health>();
                 if (health != null)
                 {
-                    health.TakeDamage(100);
+                    health.TakeDamage(50);
                 }
 
                 if (target.tag.ToString() == "Goomba")
