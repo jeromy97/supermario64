@@ -8,28 +8,28 @@ public class GoombaController : MonoBehaviour {
 
     public Vector3 rotationSpeed;
 
-    public GameObject thirdPerson;
+    public GameObject player;
 
     public float enemyLookDistance;
 
     private float playerDistance;
 
     private Rigidbody rb;
-    private Rigidbody rbThirdPerson;
+    private Rigidbody rbPlayer;
 
 	// Use this for initialization
 	void Start () {
         rb = GetComponent<Rigidbody>();
-        rbThirdPerson = thirdPerson.GetComponent<Rigidbody>();
+        rbPlayer = player.GetComponent<Rigidbody>();
     }
 	
 	// Update is called once per frame
 	void Update () {
-        playerDistance = Vector3.Distance(rbThirdPerson.transform.position, transform.position);
+        playerDistance = Vector3.Distance(rbPlayer.transform.position, transform.position);
 
         if (playerDistance <= enemyLookDistance)
         {
-            transform.LookAt(rbThirdPerson.transform);
+            transform.LookAt(rbPlayer.transform);
         }
         else
         {
