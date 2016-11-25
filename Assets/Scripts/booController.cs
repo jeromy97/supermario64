@@ -10,6 +10,7 @@ public class booController : MonoBehaviour {
     public GameObject player;
 
     public float enemyLookDistance;
+    public float angle;
 
     private float playerDistance;
 
@@ -26,9 +27,8 @@ public class booController : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Ray ray = new Ray(transform.position, transform.forward);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, 100))
+        
+        if (Vector3.Angle(player.transform.forward, transform.position - player.transform.position) > angle)
         {
             transform.LookAt(rbPlayer.transform);
             transform.position += transform.forward * Time.deltaTime * speed;
