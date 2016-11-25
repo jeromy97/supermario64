@@ -1,0 +1,16 @@
+# Created by Every File Explorer
+
+newmtl BombHeiTailMat00
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1490196 0.1490196 0.1490196
+d 1
+map_Kd enemy_xx01_BombHeiTail_dif.png
+
+newmtl BombHeiTailMat01
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.04313726 0.04313726 0.03529412
+d 1
+map_Kd enemy_xx01_BombHeiTail_dif.png
+

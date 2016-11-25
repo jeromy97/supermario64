@@ -10,6 +10,7 @@ public class BomEnemyAI : MonoBehaviour {
 	public float enemyMovingSpeed;
 	public float maxSpeed;
 	public float damping;
+	public float explosiontime;
 	public Transform fpsTarget;
 	Rigidbody rb;
 	Renderer myRender;
@@ -57,6 +58,20 @@ public class BomEnemyAI : MonoBehaviour {
 	void attackplease()
 	{
 		rb.AddForce(transform.forward * enemyMovingSpeed);
+
+
+
+		if(explosiontime > 0) 
+			explosiontime -= Time.deltaTime;
+		else {
+			
+			var exp = GetComponent<ParticleSystem>();
+			exp.Play();
+
+			Destroy(this.gameObject);
+		}
+
+
 	}
 
 
@@ -74,4 +89,6 @@ public class BomEnemyAI : MonoBehaviour {
 
 		return navHit.position;
 	}
+
+
 }
