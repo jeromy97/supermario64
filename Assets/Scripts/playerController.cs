@@ -7,23 +7,31 @@ public class playerController : MonoBehaviour {
     private int coins;
     private int stars;
     private int lifes;
+    private int health;
+    private int redCoins;
 
     public Animator anim;
 
     public Text coinText;
     public Text starText;
     public Text lifeText;
+    public Text healthText;
+    public Text redCoinText;
 
     // Use this for initialization
     void Start () {
         coins = 0;
         stars = 0;
         lifes = 3;
+        health = 100;
+        redCoins = 0;
 
         setCoinText();
         setStarText();
         setLifesText();
-	}
+        setHealthText();
+        setRedCoinText();
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -69,14 +77,38 @@ public class playerController : MonoBehaviour {
             other.gameObject.SetActive(false);
             coins++;
             setCoinText();
+            if (coins == 100)
+            {
+                lifes++;
+            }
         }
 
+        if (other.gameObject.CompareTag("red_coin"))
+        {
+            other.gameObject.SetActive(false);
+            redCoins++;
+            setRedCoinText();
+            if (redCoins == 8)
+            {
+                // Star appears...
+            }
+        }
+
+<<<<<<< HEAD
         if (other.gameObject.CompareTag("star"))
         {
             other.gameObject.SetActive(false);
             stars++;
             setStarText();
         }
+=======
+        if (other.gameObject.CompareTag("Goomba"))
+        {
+            health = health - 20;
+            setHealthText();
+        }
+
+>>>>>>> 318d876b3c5ce50a821c49192d9419df2f028199
     }
 
     void setCoinText()
@@ -91,6 +123,16 @@ public class playerController : MonoBehaviour {
     void setLifesText()
     {
         lifeText.text = "Lifes: " + lifes.ToString();
+    }
+
+    void setHealthText()
+    {
+        healthText.text = "Health: " + health.ToString();
+    }
+
+    void setRedCoinText()
+    {
+        redCoinText.text = "Red coins: " + redCoins.ToString() + "/8";
     }
 
 
