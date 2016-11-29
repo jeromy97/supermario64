@@ -70,6 +70,13 @@ public class playerController : MonoBehaviour {
             coins++;
             setCoinText();
         }
+
+        if (other.gameObject.CompareTag("star"))
+        {
+            other.gameObject.SetActive(false);
+            stars++;
+            setStarText();
+        }
     }
 
     void setCoinText()
