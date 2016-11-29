@@ -94,21 +94,20 @@ public class playerController : MonoBehaviour {
             }
         }
 
-<<<<<<< HEAD
+
         if (other.gameObject.CompareTag("star"))
         {
             other.gameObject.SetActive(false);
             stars++;
             setStarText();
         }
-=======
-        if (other.gameObject.CompareTag("Goomba"))
+if (other.gameObject.CompareTag("Goomba"))
         {
             health = health - 20;
             setHealthText();
         }
 
->>>>>>> 318d876b3c5ce50a821c49192d9419df2f028199
+
     }
 
     void setCoinText()
