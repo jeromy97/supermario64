@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: 447e6d8df0fff554d847258ae130f7f0
+timeCreated: 1480508636
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: eff_head
+    100002: eff_hip
+    100004: kosi_jnt
+    100006: kubi_jnt
+    100008: kuchi_jnt
+    100010: L_asi_jnt
+    100012: L_hiji_jnt
+    100014: L_kata
+    100016: L_momo_jnt
+    100018: L_sune_jnt
+    100020: L_te_jnt
+    100022: L_tekubi
+    100024: L_ude_jnt
+    100026: L_yubi_01A_jnt
+    100028: L_yubi_01B_jnt
+    100030: L_yubi_02A_jnt
+    100032: L_yubi_02B_jnt
+    100034: L_yubi_03A_jnt
+    100036: L_yubi_03B_jnt
+    100038: Mario
+    100040: //RootNode
+    100042: mune_jnt
+    100044: R_asi_jnt
+    100046: R_hiji_jnt
+    100048: R_kata
+    100050: R_momo_jnt
+    100052: R_sune_jnt
+    100054: R_te_jnt
+    100056: R_tekubi
+    100058: R_ude_jnt
+    100060: R_yubi_01A_jnt
+    100062: R_yubi_01B_jnt
+    100064: R_yubi_02A_jnt
+    100066: R_yubi_02B_jnt
+    100068: R_yubi_03A_jnt
+    100070: R_yubi_03B_jnt
+    100072: root
+    100074: trans
+    400000: eff_head
+    400002: eff_hip
+    400004: kosi_jnt
+    400006: kubi_jnt
+    400008: kuchi_jnt
+    400010: L_asi_jnt
+    400012: L_hiji_jnt
+    400014: L_kata
+    400016: L_momo_jnt
+    400018: L_sune_jnt
+    400020: L_te_jnt
+    400022: L_tekubi
+    400024: L_ude_jnt
+    400026: L_yubi_01A_jnt
+    400028: L_yubi_01B_jnt
+    400030: L_yubi_02A_jnt
+    400032: L_yubi_02B_jnt
+    400034: L_yubi_03A_jnt
+    400036: L_yubi_03B_jnt
+    400038: Mario
+    400040: //RootNode
+    400042: mune_jnt
+    400044: R_asi_jnt
+    400046: R_hiji_jnt
+    400048: R_kata
+    400050: R_momo_jnt
+    400052: R_sune_jnt
+    400054: R_te_jnt
+    400056: R_tekubi
+    400058: R_ude_jnt
+    400060: R_yubi_01A_jnt
+    400062: R_yubi_01B_jnt
+    400064: R_yubi_02A_jnt
+    400066: R_yubi_02B_jnt
+    400068: R_yubi_03A_jnt
+    400070: R_yubi_03B_jnt
+    400072: root
+    400074: trans
+    4300000: Mario
+    9500000: //RootNode
+    13700000: Mario
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_momo_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_momo_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_sune_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_sune_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_asi_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_asi_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mune_jnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kubi_jnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kuchi_jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_ude_jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_ude_jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_hiji_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_hiji_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_te_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_te_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_yubi_01A_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_yubi_01A_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Mario_High_ColladaMax(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mario
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -1.110223e-16, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: trans
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: kosi_jnt
+      position: {x: -0, y: 0.25999996, z: 0}
+      rotation: {x: 0.5, y: 0.50000006, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eff_hip
+      position: {x: -0.051999994, y: -0.07199999, z: 0}
+      rotation: {x: -0.50000006, y: -0.5, z: -0.49999988, w: 0.5000002}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_momo_jnt
+      position: {x: -0.0336, y: 0, z: -0.043999996}
+      rotation: {x: -0.000000029802322, y: -0.000000029802322, z: -0.0028479993, w: 0.999996}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+      transformModified: 1
+    - name: L_sune_jnt
+      position: {x: -0.093200095, y: 0, z: 0}
+      rotation: {x: 0.00000003114843, y: -0.00000003102682, z: 0.04312916, w: 0.9990696}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1}
+      transformModified: 1
+    - name: L_asi_jnt
+      position: {x: -0.09319999, y: 0, z: 0}
+      rotation: {x: -0.000000041468848, y: 0.000000014167021, z: -0.70474195, w: 0.70946366}
+      scale: {x: 0.99999964, y: 0.9999996, z: 0.9999998}
+      transformModified: 1
+    - name: R_momo_jnt
+      position: {x: -0.0336, y: 0, z: 0.043999996}
+      rotation: {x: -0.000000029802322, y: -0.000000029802322, z: -0.0028715134, w: 0.99999595}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+      transformModified: 1
+    - name: R_sune_jnt
+      position: {x: -0.093200095, y: 0, z: 0}
+      rotation: {x: -0.000000028624981, y: 0.000000028405621, z: 0.043178745, w: 0.9990674}
+      scale: {x: 0.9999997, y: 0.99999964, z: 0.9999995}
+      transformModified: 1
+    - name: R_asi_jnt
+      position: {x: -0.09319999, y: 0, z: 0}
+      rotation: {x: 0.00000007372324, y: 0.00000003906701, z: -0.7047609, w: 0.709445}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000005}
+      transformModified: 1
+    - name: mune_jnt
+      position: {x: -0, y: 0.25999996, z: 0}
+      rotation: {x: 0.5, y: -0.50000006, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: kubi_jnt
+      position: {x: -0.11039999, y: -0.008, z: 0}
+      rotation: {x: -0, y: -0, z: 0.10529575, w: 0.994441}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: eff_head
+      position: {x: -0.23999996, y: 0, z: 0}
+      rotation: {x: -0.50000006, y: 0.5, z: 0.49999988, w: 0.5000002}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: kuchi_jnt
+      position: {x: -0.036443595, y: 0.030671198, z: 0}
+      rotation: {x: -0.000000044703484, y: -0.0000000074505793, z: -0.8216591, w: 0.56997937}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1}
+      transformModified: 1
+    - name: L_kata
+      position: {x: -0.086399995, y: -0.012, z: 0.068}
+      rotation: {x: -0.0045625865, y: 0.75679535, z: 0.002414355, w: 0.65363157}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: L_ude_jnt
+      position: {x: -0.086399995, y: -0.012, z: 0.068}
+      rotation: {x: -0.010944991, y: 0.8128413, z: 0.008575185, w: 0.5823193}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+      transformModified: 1
+    - name: L_hiji_jnt
+      position: {x: -0.06835999, y: 0, z: 0}
+      rotation: {x: -0.00000003958121, y: -0.12801418, z: -0.00047546905, w: 0.9917723}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: L_te_jnt
+      position: {x: -0.07743999, y: 0, z: 0}
+      rotation: {x: -0.013650783, y: 0.03550337, z: 0.19275147, w: 0.98051006}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000001}
+      transformModified: 1
+    - name: L_yubi_01A_jnt
+      position: {x: -0.050449196, y: 0.0247848, z: -0.008138008}
+      rotation: {x: -0.74952096, y: 0.036011357, z: -0.04335623, w: 0.65957695}
+      scale: {x: 1, y: 1.0000001, z: 1.0000005}
+      transformModified: 1
+    - name: L_yubi_01B_jnt
+      position: {x: -0.025999997, y: -0.00000006999999, z: 0}
+      rotation: {x: 0.000000059604638, y: 0.000000014901159, z: 0.0050291563, w: 0.9999874}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: L_yubi_02A_jnt
+      position: {x: -0.046537995, y: -0.011166799, z: -0.00870399}
+      rotation: {x: -0.70006394, y: 0.009943434, z: 0.07166324, w: 0.7104056}
+      scale: {x: 1, y: 1.0000006, z: 1.0000006}
+      transformModified: 1
+    - name: L_yubi_02B_jnt
+      position: {x: -0.027999999, y: -0.000000029999995, z: 0}
+      rotation: {x: -0.00000014901161, y: 0.00000004656613, z: 0.23152141, w: 0.9728299}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+      transformModified: 1
+    - name: L_yubi_03A_jnt
+      position: {x: -0.00244393, y: 0.028550396, z: 0.018355997}
+      rotation: {x: -0.94305104, y: 0.29485428, z: 0.1384829, w: 0.067367435}
+      scale: {x: 1.0000007, y: 1.0000019, z: 1.0000015}
+      transformModified: 1
+    - name: L_yubi_03B_jnt
+      position: {x: -0.035999995, y: 0, z: 0}
+      rotation: {x: -0.0000003352761, y: -0.00000006519257, z: -0.100606725, w: 0.9949263}
+      scale: {x: 0.9999995, y: 0.9999991, z: 0.9999993}
+      transformModified: 1
+    - name: L_tekubi
+      position: {x: -0.0390636, y: -0.0020599996, z: 0.0018807999}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: R_kata
+      position: {x: -0.08640009, y: -0.012, z: -0.068}
+      rotation: {x: -0.004560979, y: 0.75679636, z: -0.002415806, w: -0.65363044}
+      scale: {x: 1.0000011, y: 1.0000002, z: 1.0000006}
+      transformModified: 1
+    - name: R_ude_jnt
+      position: {x: -0.08640009, y: -0.012, z: -0.068}
+      rotation: {x: -0.010943211, y: 0.81284094, z: -0.008578896, w: -0.5823197}
+      scale: {x: 1.0000005, y: 0.9999998, z: 1.0000004}
+      transformModified: 1
+    - name: R_hiji_jnt
+      position: {x: -0.06835999, y: 0, z: 0}
+      rotation: {x: 0.00000004703179, y: 0.12801373, z: -0.00047783554, w: 0.9917723}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+      transformModified: 1
+    - name: R_te_jnt
+      position: {x: -0.07743999, y: 0, z: 0}
+      rotation: {x: 0.013650675, y: -0.035503156, z: 0.19275104, w: 0.9805102}
+      scale: {x: 1, y: 0.9999998, z: 1}
+      transformModified: 1
+    - name: R_yubi_01A_jnt
+      position: {x: -0.050449196, y: 0.0247848, z: 0.008138008}
+      rotation: {x: 0.749521, y: -0.036012966, z: -0.04335541, w: 0.65957695}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+      transformModified: 1
+    - name: R_yubi_01B_jnt
+      position: {x: -0.025999997, y: 0, z: -0.00000001}
+      rotation: {x: 0.00000032782555, y: 0.000000007450581, z: 0.0050280467, w: 0.9999874}
+      scale: {x: 0.99999946, y: 0.99999964, z: 0.9999995}
+      transformModified: 1
+    - name: R_yubi_02A_jnt
+      position: {x: -0.046538398, y: -0.011166799, z: 0.00870361}
+      rotation: {x: 0.70006406, y: -0.009943992, z: 0.071664244, w: 0.71040535}
+      scale: {x: 0.9999992, y: 1.0000001, z: 1.0000002}
+      transformModified: 1
+    - name: R_yubi_02B_jnt
+      position: {x: -0.028000098, y: 0.000000029999995, z: 0}
+      rotation: {x: -0, y: 0.00000000791624, z: 0.23152071, w: 0.97282994}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: R_yubi_03A_jnt
+      position: {x: -0.0024444198, y: 0.028550396, z: -0.018355997}
+      rotation: {x: -0.943051, y: 0.29485413, z: -0.13848339, w: -0.06736633}
+      scale: {x: 1, y: 1.0000006, z: 1.000001}
+      transformModified: 1
+    - name: R_yubi_03B_jnt
+      position: {x: -0.035999995, y: 0.00000001, z: 0}
+      rotation: {x: -0.00000014156102, y: 0.000000029802319, z: 0.100606844, w: -0.9949263}
+      scale: {x: 0.99999976, y: 1.0000002, z: 0.9999997}
+      transformModified: 1
+    - name: R_tekubi
+      position: {x: -0.039063994, y: -0.0020219998, z: -0.0018815999}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
