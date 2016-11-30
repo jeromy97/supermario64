@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class playerController : MonoBehaviour {
 
@@ -15,6 +16,9 @@ public class playerController : MonoBehaviour {
     private Animator anim;
 
     public float Turning = 0.0f;
+
+    public float LastJump = 0.0f;
+    public int Jump = 0;
 
     // Use this for initialization
     void Start () {
@@ -36,6 +40,31 @@ public class playerController : MonoBehaviour {
         {
             Attack();
         }
+
+        LastJump += 1 * Time.deltaTime;
+
+        if (LastJump < 1)
+        {
+            if (Jump == 1)
+            {
+                GetComponent<ThirdPersonCharacter>().m_JumpPower = 13;
+            }
+            else if (Jump == 2)
+            {
+                GetComponent<ThirdPersonCharacter>().m_JumpPower = 16;
+            }
+        }
+        else
+        {
+            GetComponent<ThirdPersonCharacter>().m_JumpPower = 7;
+            Jump = 0;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            LastJump = 0.0f;
+            Jump++;
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -45,6 +74,13 @@ public class playerController : MonoBehaviour {
             other.gameObject.SetActive(false);
             coins++;
             setCoinText();
+        }
+
+        if (other.gameObject.CompareTag("green_mushroom"))
+        {
+            other.gameObject.SetActive(false);
+            lifes++;
+            setLifesText();
         }
     }
 
@@ -79,18 +115,6 @@ public class playerController : MonoBehaviour {
 
             }
         }
-<<<<<<< HEAD
-=======
-
-        if (other.gameObject.CompareTag("green_mushroom"))
-        {
-            other.gameObject.SetActive(false);
-            lifes++;
-            setLifesText();
-        }
-
-
->>>>>>> fe8468d3be170a1018779739f1ab830c9e0c9e60
     }
 
     void setCoinText()
@@ -106,6 +130,4 @@ public class playerController : MonoBehaviour {
     {
         //lifeText.text = "Lifes: " + lifes.ToString();
     }
-
-
 }
