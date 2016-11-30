@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour {
 
@@ -76,11 +77,22 @@ public class playerController : MonoBehaviour {
         {
             other.gameObject.SetActive(false);
             coins++;
-            setCoinText();
             if (coins == 100)
             {
                 lifes++;
             }
+            if (health < 100)
+            {
+                health = health + 20;
+                if (health > 100)
+                {
+                    health = 100;
+                }
+
+            }
+            setCoinText();
+            setLifesText();
+            setHealthText();
         }
 
         if (other.gameObject.CompareTag("red_coin"))
@@ -101,14 +113,16 @@ public class playerController : MonoBehaviour {
             stars++;
             setStarText();
         }
-if (other.gameObject.CompareTag("Goomba"))
+
+        if (other.gameObject.CompareTag("Goomba") || other.gameObject.CompareTag("Boo"))
         {
-            health = health - 20;
-            setHealthText();
+            loseHealth();
         }
 
 
     }
+
+    // Puntensysteem en zooi //
 
     void setCoinText()
     {
@@ -132,6 +146,19 @@ if (other.gameObject.CompareTag("Goomba"))
     void setRedCoinText()
     {
         redCoinText.text = "Red coins: " + redCoins.ToString() + "/8";
+    }
+
+    void loseHealth()
+    {
+        health = health - 20;
+        setHealthText();
+        if (health > 1)
+        {
+            lifes--;
+            setLifesText();
+            int scene = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(scene, LoadSceneMode.Single);
+        }
     }
 
 

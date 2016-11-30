@@ -13,13 +13,11 @@ public class GoombaController : MonoBehaviour {
     public float enemyLookDistance;
 
     private float playerDistance;
-
-    private Rigidbody rb;
+    
     private Rigidbody rbPlayer;
 
 	// Use this for initialization
 	void Start () {
-        rb = GetComponent<Rigidbody>();
         rbPlayer = player.GetComponent<Rigidbody>();
     }
 	
