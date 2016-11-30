@@ -79,6 +79,18 @@ public class playerController : MonoBehaviour {
 
             }
         }
+<<<<<<< HEAD
+=======
+
+        if (other.gameObject.CompareTag("green_mushroom"))
+        {
+            other.gameObject.SetActive(false);
+            lifes++;
+            setLifesText();
+        }
+
+
+>>>>>>> fe8468d3be170a1018779739f1ab830c9e0c9e60
     }
 
     void setCoinText()
