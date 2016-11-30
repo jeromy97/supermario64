@@ -119,6 +119,13 @@ public class playerController : MonoBehaviour {
             loseHealth();
         }
 
+        if (other.gameObject.CompareTag("green_mushroom"))
+        {
+            other.gameObject.SetActive(false);
+            lifes++;
+            setLifesText();
+        }
+
 
     }
 
