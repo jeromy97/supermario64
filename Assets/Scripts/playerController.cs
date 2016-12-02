@@ -8,10 +8,14 @@ public class playerController : MonoBehaviour {
     private int coins;
     private int stars;
     private int lifes;
+    private int redCoins;
+    private int health;
 
     public Text coinText;
     public Text starText;
     public Text lifeText;
+    public Text redCoinsText;
+    public Text healthText;
 
     private Animator anim;
 
@@ -25,10 +29,13 @@ public class playerController : MonoBehaviour {
         coins = 0;
         stars = 0;
         lifes = 3;
+        redCoins = 0;
+        health = 100;
 
         setCoinText();
         setStarText();
         setLifesText();
+        setRedCoinsText();
 
         anim = GetComponent<Animator>();
 	}
@@ -65,6 +72,19 @@ public class playerController : MonoBehaviour {
             LastJump = 0.0f;
             Jump++;
         }
+
+        if (health >= 100)
+        {
+            health = 100;
+        }
+
+        if (health <= 100)
+        {
+            // Mario dies.
+        }
+
+        setHealthText();
+
     }
 
     void OnTriggerEnter(Collider other)
@@ -73,15 +93,42 @@ public class playerController : MonoBehaviour {
         {
             other.gameObject.SetActive(false);
             coins++;
+            if (coins >= 100)
+            {
+                lifes++;
+                coins = 0;
+            }
+            health = health + 20;
             setCoinText();
+            setLifesText();
         }
 
+        if (other.gameObject.CompareTag("red_coin"))
+        {
+            other.gameObject.SetActive(false);
+            redCoins++;
+            if (redCoins >= 8)
+            {
+                // Star appears.
+            }
+            setRedCoinsText();
+        }
+
+        /*
         if (other.gameObject.CompareTag("green_mushroom"))
         {
             other.gameObject.SetActive(false);
             lifes++;
             setLifesText();
         }
+        */
+
+        if (other.gameObject.CompareTag("goomba") || other.gameObject.CompareTag("boo"))
+        {
+            health = health - 20;
+            setHealthText();
+        }
+
     }
 
     void Attack()
@@ -119,15 +166,26 @@ public class playerController : MonoBehaviour {
 
     void setCoinText()
     {
-        //coinText.text = "Coins: " + coins.ToString();
+        coinText.text = "Coins: " + coins.ToString();
     }
 
     void setStarText()
     {
-        //starText.text = "Stars: " + stars.ToString();
+        starText.text = "Stars: " + stars.ToString();
     }
     void setLifesText()
     {
-        //lifeText.text = "Lifes: " + lifes.ToString();
+        lifeText.text = "Lifes: " + lifes.ToString();
     }
+
+    void setRedCoinsText()
+    {
+        redCoinsText.text = "Red coins: " + redCoins.ToString() + "/8";
+    }
+
+    void setHealthText()
+    {
+        healthText.text = "Health: " + health.ToString();
+    }
+
 }
