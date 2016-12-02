@@ -114,6 +114,8 @@ public class playerController : MonoBehaviour {
             setRedCoinsText();
         }
 
+        // The following content doesn't work.
+
         /*
         if (other.gameObject.CompareTag("green_mushroom"))
         {
@@ -123,11 +125,13 @@ public class playerController : MonoBehaviour {
         }
         */
 
+        /*
         if (other.gameObject.CompareTag("goomba") || other.gameObject.CompareTag("boo"))
         {
             health = health - 20;
             setHealthText();
         }
+        */
 
     }
 
