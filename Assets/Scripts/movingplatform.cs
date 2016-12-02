@@ -14,7 +14,7 @@ public class movingplatform : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		ChangeTarget () ;
+        ChangeTarget()                     ;
 	}
 
 	// Update is called once per frame
@@ -27,10 +27,12 @@ public class movingplatform : MonoBehaviour {
 		if (currentState == "Moving to Position1") {
 			currentState = "Moving to Position2";
 			newPosition = position2.position;
-		} else if (currentState == "Moving to Position2") {
+		}
+        else if (currentState == "Moving to Position2") {
 			currentState = "Moving to position1";
 			newPosition = position1.position;
-		} else if (currentState == "") 
+		}
+        else if (currentState == "") 
 		{
 			currentState = "Moving to Position2";
 			newPosition = position2.position;

@@ -109,7 +109,7 @@ public class playerController : MonoBehaviour {
             redCoins++;
             if (redCoins >= 8)
             {
-                // Star appears.
+
             }
             setRedCoinsText();
         }
