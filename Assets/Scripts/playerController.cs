@@ -119,20 +119,14 @@ public class playerController : MonoBehaviour {
             redCoins++;
             if (redCoins >= 8)
             {
-<<<<<<< HEAD
                 {
 
                     usestar.activate();
 
                 }
-                
-=======
-                // Star appears
->>>>>>> 1a6ca6129ff738851b1513d9f4ef868e616ba1fb
             }
         }
-
-<<<<<<< HEAD
+        
         if (other.gameObject.CompareTag("star"))
         {
             other.gameObject.SetActive(false);
@@ -140,12 +134,7 @@ public class playerController : MonoBehaviour {
             setStarText();
             SceneManager.LoadScene("Castle", LoadSceneMode.Single);
         }
-
-
-        // The following content doesn't work.
-=======
     }
->>>>>>> 1a6ca6129ff738851b1513d9f4ef868e616ba1fb
 
     void OnCollisionEnter(Collision other)
     {
