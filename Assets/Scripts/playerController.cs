@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.ThirdPerson;
+using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour {
 
@@ -11,11 +12,14 @@ public class playerController : MonoBehaviour {
     private int redCoins;
     private int health;
 
+
     public Text coinText;
     public Text starText;
     public Text lifeText;
     public Text redCoinsText;
     public Text healthText;
+
+    public star usestar;
 
     private Animator anim;
 
@@ -109,10 +113,24 @@ public class playerController : MonoBehaviour {
             redCoins++;
             if (redCoins >= 8)
             {
+                {
 
+                    usestar.activate();
+
+                }
+                
             }
             setRedCoinsText();
         }
+
+        if (other.gameObject.CompareTag("star"))
+        {
+            other.gameObject.SetActive(false);
+            stars++;
+            setStarText();
+            SceneManager.LoadScene("Castle", LoadSceneMode.Single);
+        }
+
 
         // The following content doesn't work.
 

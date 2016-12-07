@@ -16,4 +16,8 @@ public class star : MonoBehaviour {
 	}
 
 
+    public void activate()
+    {
+        this.gameObject.SetActive(true);
+    }
 }
