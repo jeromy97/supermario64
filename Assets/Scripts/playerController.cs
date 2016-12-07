@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.ThirdPerson;
+using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour {
 
@@ -33,6 +34,7 @@ public class playerController : MonoBehaviour {
         health = 100;
 
         setCoinText();
+        setHealthText();
         setStarText();
         setLifesText();
         setRedCoinsText();
@@ -78,13 +80,20 @@ public class playerController : MonoBehaviour {
             health = 100;
         }
 
-        if (health <= 100)
+        if (health <= 0)
         {
-            // Mario dies.
+            // Play dead animation.
+
+            lifes--;
+            int scene = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(scene, LoadSceneMode.Single);
         }
 
         setHealthText();
-
+        setCoinText();
+        setLifesText();
+        setRedCoinsText();
+        setStarText();
     }
 
     void OnTriggerEnter(Collider other)
@@ -99,8 +108,6 @@ public class playerController : MonoBehaviour {
                 coins = 0;
             }
             health = health + 20;
-            setCoinText();
-            setLifesText();
         }
 
         if (other.gameObject.CompareTag("red_coin"))
@@ -109,30 +116,24 @@ public class playerController : MonoBehaviour {
             redCoins++;
             if (redCoins >= 8)
             {
-
+                // Star appears
             }
-            setRedCoinsText();
         }
 
-        // The following content doesn't work.
+    }
 
-        /*
+    void OnCollisionEnter(Collision other)
+    {
         if (other.gameObject.CompareTag("green_mushroom"))
         {
             other.gameObject.SetActive(false);
             lifes++;
-            setLifesText();
         }
-        */
 
-        /*
-        if (other.gameObject.CompareTag("goomba") || other.gameObject.CompareTag("boo"))
+        if (other.gameObject.CompareTag("Goomba") || other.gameObject.CompareTag("Boo"))
         {
             health = health - 20;
-            setHealthText();
         }
-        */
-
     }
 
     void Attack()
@@ -172,7 +173,6 @@ public class playerController : MonoBehaviour {
     {
         coinText.text = "Coins: " + coins.ToString();
     }
-
     void setStarText()
     {
         starText.text = "Stars: " + stars.ToString();
@@ -181,12 +181,10 @@ public class playerController : MonoBehaviour {
     {
         lifeText.text = "Lifes: " + lifes.ToString();
     }
-
     void setRedCoinsText()
     {
         redCoinsText.text = "Red coins: " + redCoins.ToString() + "/8";
     }
-
     void setHealthText()
     {
         healthText.text = "Health: " + health.ToString();
