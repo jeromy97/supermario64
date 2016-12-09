@@ -57,11 +57,11 @@ public class playerController : MonoBehaviour {
 
         if (LastJump < 1)
         {
-            if (Jump == 1)
+            if (Jump == 1 && GetComponent<ThirdPersonCharacter>().m_IsGrounded)
             {
                 GetComponent<ThirdPersonCharacter>().m_JumpPower = 13;
             }
-            else if (Jump == 2)
+            else if (Jump == 2 && GetComponent<ThirdPersonCharacter>().m_IsGrounded)
             {
                 GetComponent<ThirdPersonCharacter>().m_JumpPower = 16;
             }
@@ -72,7 +72,7 @@ public class playerController : MonoBehaviour {
             Jump = 0;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && GetComponent<ThirdPersonCharacter>().m_IsGrounded)
         {
             LastJump = 0.0f;
             Jump++;
