@@ -12,15 +12,18 @@ public class playerController : MonoBehaviour {
     private int redCoins;
     private int health;
     public GameObject star;
-
+    
+    private Animator anim;
 
     public Text coinText;
     public Text starText;
     public Text lifeText;
     public Text redCoinsText;
     public Text healthText;
-
-    private Animator anim;
+    
+    public Image healthBar;
+    public Sprite[] healthBarSprite;
+    public star usestar;
 
     public float Turning = 0.0f;
 
@@ -33,7 +36,7 @@ public class playerController : MonoBehaviour {
         stars = 0;
         lifes = 3;
         redCoins = 0;
-        health = 100;
+        health = 8;
 
         setCoinText();
         setHealthText();
@@ -47,6 +50,8 @@ public class playerController : MonoBehaviour {
         stardeactivate.gameObject.SetActive(false);
 
     }
+        System.Array.Reverse(healthBarSprite);
+	}
 	
 	// Update is called once per frame
 	void Update ()
@@ -60,11 +65,11 @@ public class playerController : MonoBehaviour {
 
         if (LastJump < 1)
         {
-            if (Jump == 1)
+            if (Jump == 1 && GetComponent<ThirdPersonCharacter>().m_IsGrounded)
             {
                 GetComponent<ThirdPersonCharacter>().m_JumpPower = 13;
             }
-            else if (Jump == 2)
+            else if (Jump == 2 && GetComponent<ThirdPersonCharacter>().m_IsGrounded)
             {
                 GetComponent<ThirdPersonCharacter>().m_JumpPower = 16;
             }
@@ -75,15 +80,15 @@ public class playerController : MonoBehaviour {
             Jump = 0;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && GetComponent<ThirdPersonCharacter>().m_IsGrounded)
         {
             LastJump = 0.0f;
             Jump++;
         }
 
-        if (health >= 100)
+        if (health >= 8)
         {
-            health = 100;
+            health = 8;
         }
 
         if (health <= 0)
@@ -113,18 +118,19 @@ public class playerController : MonoBehaviour {
         {
             other.gameObject.SetActive(false);
             coins++;
+            health = health + 1;
             if (coins >= 100)
             {
                 lifes++;
                 coins = 0;
             }
-            health = health + 20;
         }
 
         if (other.gameObject.CompareTag("red_coin"))
         {
             other.gameObject.SetActive(false);
             redCoins++;
+            health = health + 1;
             if (redCoins >= 8)
             {
                 {
@@ -160,7 +166,7 @@ public class playerController : MonoBehaviour {
 
         if (other.gameObject.CompareTag("Goomba") || other.gameObject.CompareTag("Boo"))
         {
-            health = health - 20;
+            health = health - 1;
         }
     }
 
@@ -199,23 +205,24 @@ public class playerController : MonoBehaviour {
 
     void setCoinText()
     {
-        coinText.text = "Coins: " + coins.ToString();
+        coinText.text = "x " + coins.ToString();
     }
     void setStarText()
     {
-        starText.text = "Stars: " + stars.ToString();
+        starText.text = "x " + stars.ToString();
     }
     void setLifesText()
     {
-        lifeText.text = "Lifes: " + lifes.ToString();
+        lifeText.text = "x " + lifes.ToString();
     }
     void setRedCoinsText()
     {
-        redCoinsText.text = "Red coins: " + redCoins.ToString() + "/8";
+        redCoinsText.text = "x " + redCoins.ToString() + "/8";
     }
     void setHealthText()
     {
-        healthText.text = "Health: " + health.ToString();
+        //healthText.text = "Health: " + health.ToString();
+        healthBar.sprite = healthBarSprite[health];
     }
 
 }
