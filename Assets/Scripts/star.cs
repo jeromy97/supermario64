@@ -7,7 +7,7 @@ public class star : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        this.gameObject.SetActive(false);
+
     }
 
 	// Update is called once per frame
@@ -18,6 +18,8 @@ public class star : MonoBehaviour {
 
     public void activate()
     {
-        this.gameObject.SetActive(true);
+        var stardeactivate = GameObject.FindWithTag("star");
+        stardeactivate.gameObject.SetActive(false);
+
     }
 }

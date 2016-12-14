@@ -11,6 +11,7 @@ public class playerController : MonoBehaviour {
     private int lifes;
     private int redCoins;
     private int health;
+    public GameObject star;
 
 
     public Text coinText;
@@ -18,8 +19,6 @@ public class playerController : MonoBehaviour {
     public Text lifeText;
     public Text redCoinsText;
     public Text healthText;
-
-    public star usestar;
 
     private Animator anim;
 
@@ -43,7 +42,11 @@ public class playerController : MonoBehaviour {
         setRedCoinsText();
 
         anim = GetComponent<Animator>();
-	}
+
+        var stardeactivate = GameObject.FindWithTag("star");
+        stardeactivate.gameObject.SetActive(false);
+
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -99,6 +102,11 @@ public class playerController : MonoBehaviour {
         setStarText();
     }
 
+    public void bomdamage()
+    {
+        health = health -= 20;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("coin"))
@@ -120,9 +128,7 @@ public class playerController : MonoBehaviour {
             if (redCoins >= 8)
             {
                 {
-
-                    usestar.activate();
-
+                    star.gameObject.SetActive(true);          
                 }
             }
         }
@@ -134,6 +140,14 @@ public class playerController : MonoBehaviour {
             setStarText();
             SceneManager.LoadScene("Castle", LoadSceneMode.Single);
         }
+
+        if (other.gameObject.CompareTag("bomb"))
+        {
+            float dist = Vector3.Distance(other.gameObject.transform.position, transform.position);
+            print(dist);
+        }
+
+
     }
 
     void OnCollisionEnter(Collision other)
