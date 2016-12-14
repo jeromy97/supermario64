@@ -12,13 +12,17 @@ public class playerController : MonoBehaviour {
     private int redCoins;
     private int health;
 
+    private Animator anim;
+
     public Text coinText;
     public Text starText;
     public Text lifeText;
     public Text redCoinsText;
     public Text healthText;
 
-    private Animator anim;
+    public Image healthBar;
+
+    public Sprite[] healthBarSprite;
 
     public float Turning = 0.0f;
 
@@ -31,7 +35,7 @@ public class playerController : MonoBehaviour {
         stars = 0;
         lifes = 3;
         redCoins = 0;
-        health = 100;
+        health = 8;
 
         setCoinText();
         setHealthText();
@@ -40,6 +44,7 @@ public class playerController : MonoBehaviour {
         setRedCoinsText();
 
         anim = GetComponent<Animator>();
+        System.Array.Reverse(healthBarSprite);
 	}
 	
 	// Update is called once per frame
@@ -75,9 +80,9 @@ public class playerController : MonoBehaviour {
             Jump++;
         }
 
-        if (health >= 100)
+        if (health >= 8)
         {
-            health = 100;
+            health = 8;
         }
 
         if (health <= 0)
@@ -102,18 +107,19 @@ public class playerController : MonoBehaviour {
         {
             other.gameObject.SetActive(false);
             coins++;
+            health = health + 1;
             if (coins >= 100)
             {
                 lifes++;
                 coins = 0;
             }
-            health = health + 20;
         }
 
         if (other.gameObject.CompareTag("red_coin"))
         {
             other.gameObject.SetActive(false);
             redCoins++;
+            health = health + 1;
             if (redCoins >= 8)
             {
                 // Star appears
@@ -132,7 +138,7 @@ public class playerController : MonoBehaviour {
 
         if (other.gameObject.CompareTag("Goomba") || other.gameObject.CompareTag("Boo"))
         {
-            health = health - 20;
+            health = health - 1;
         }
     }
 
@@ -171,23 +177,24 @@ public class playerController : MonoBehaviour {
 
     void setCoinText()
     {
-        coinText.text = "Coins: " + coins.ToString();
+        coinText.text = "x " + coins.ToString();
     }
     void setStarText()
     {
-        starText.text = "Stars: " + stars.ToString();
+        starText.text = "x " + stars.ToString();
     }
     void setLifesText()
     {
-        lifeText.text = "Lifes: " + lifes.ToString();
+        lifeText.text = "x " + lifes.ToString();
     }
     void setRedCoinsText()
     {
-        redCoinsText.text = "Red coins: " + redCoins.ToString() + "/8";
+        redCoinsText.text = "x " + redCoins.ToString() + "/8";
     }
     void setHealthText()
     {
-        healthText.text = "Health: " + health.ToString();
+        //healthText.text = "Health: " + health.ToString();
+        healthBar.sprite = healthBarSprite[health];
     }
 
 }
