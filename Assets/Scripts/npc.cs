@@ -5,7 +5,7 @@ public class npc : MonoBehaviour {
 
     //Declaring variables
     bool text;
-    void OnColliderEnter(Collider col)
+    void OnTriggerEnter(Collider col)
     {
         //Telling game to actiavte boolean
         if (col.gameObject.tag == "Player")
@@ -13,12 +13,25 @@ public class npc : MonoBehaviour {
             text = true;
         }
     }
+
+    void OnTriggerExit(Collider col)
+    {
+        //Telling game to actiavte boolean
+        if (col.gameObject.tag == "Player")
+        {
+            text = false;
+        }
+    }
+
     void OnGUI()
     {
         //If the boolean is active, display the text
         if (text == true)
         {
-            GUI.Box(new Rect(10,10, 100, 20), "hello world");
+            GUI.skin.box.wordWrap = true;
+            print("sadsadsadadsads");
+            GUI.Box(new Rect(250,100, 200, 100), "im toad the toad give me your coins!");
+            
         }
     }
 

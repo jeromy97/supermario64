@@ -65,8 +65,8 @@ public class BomEnemyAI : MonoBehaviour {
 			explosiontime -= Time.deltaTime;
 		else {
 			
-			var exp = GetComponent<ParticleSystem>();
-			exp.Play();
+			//var exp = GetComponent<ParticleSystem>();
+			//exp.Play();
 
 			Destroy(this.gameObject);
 		}

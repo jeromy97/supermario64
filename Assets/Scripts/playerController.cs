@@ -11,7 +11,7 @@ public class playerController : MonoBehaviour {
     private int lifes;
     private int redCoins;
     private int health;
-
+    
     private Animator anim;
 
     public Text coinText;
@@ -19,10 +19,13 @@ public class playerController : MonoBehaviour {
     public Text lifeText;
     public Text redCoinsText;
     public Text healthText;
-
+    
     public Image healthBar;
 
     public Sprite[] healthBarSprite;
+    public star usestar;
+
+    private Animator anim;
 
     public float Turning = 0.0f;
 
@@ -59,11 +62,11 @@ public class playerController : MonoBehaviour {
 
         if (LastJump < 1)
         {
-            if (Jump == 1)
+            if (Jump == 1 && GetComponent<ThirdPersonCharacter>().m_IsGrounded)
             {
                 GetComponent<ThirdPersonCharacter>().m_JumpPower = 13;
             }
-            else if (Jump == 2)
+            else if (Jump == 2 && GetComponent<ThirdPersonCharacter>().m_IsGrounded)
             {
                 GetComponent<ThirdPersonCharacter>().m_JumpPower = 16;
             }
@@ -74,7 +77,7 @@ public class playerController : MonoBehaviour {
             Jump = 0;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && GetComponent<ThirdPersonCharacter>().m_IsGrounded)
         {
             LastJump = 0.0f;
             Jump++;
@@ -122,10 +125,21 @@ public class playerController : MonoBehaviour {
             health = health + 1;
             if (redCoins >= 8)
             {
-                // Star appears
+                {
+
+                    usestar.activate();
+
+                }
             }
         }
-
+        
+        if (other.gameObject.CompareTag("star"))
+        {
+            other.gameObject.SetActive(false);
+            stars++;
+            setStarText();
+            SceneManager.LoadScene("Castle", LoadSceneMode.Single);
+        }
     }
 
     void OnCollisionEnter(Collision other)

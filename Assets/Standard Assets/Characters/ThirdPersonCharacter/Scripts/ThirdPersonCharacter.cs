@@ -18,7 +18,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 		Rigidbody m_Rigidbody;
 		Animator m_Animator;
-		bool m_IsGrounded;
+		public bool m_IsGrounded;
 		float m_OrigGroundCheckDistance;
 		const float k_Half = 0.5f;
 		float m_TurnAmount;
@@ -52,7 +52,19 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (move.magnitude > 1f) move.Normalize();
 			move = transform.InverseTransformDirection(move);
 			CheckGroundStatus();
-			move = Vector3.ProjectOnPlane(move, m_GroundNormal);
+            if (transform.position.y < 0)
+            {
+                m_IsGrounded = true;
+                m_JumpPower = 1;
+                //GetComponent<Rigidbody>().mass = 0.001f;
+                GetComponent<Rigidbody>().useGravity = false;
+            }
+            else
+            {
+                GetComponent<Rigidbody>().useGravity = true;
+                //GetComponent<Rigidbody>().mass = 0.001f;
+            }
+            move = Vector3.ProjectOnPlane(move, m_GroundNormal);
 			m_TurnAmount = Mathf.Atan2(move.x, move.z);
 			m_ForwardAmount = move.z;
 
