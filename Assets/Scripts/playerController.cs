@@ -15,6 +15,8 @@ public class playerController : MonoBehaviour {
     
     private Animator anim;
 
+    private Rigidbody rb;
+
     public Text coinText;
     public Text starText;
     public Text lifeText;
@@ -49,6 +51,8 @@ public class playerController : MonoBehaviour {
         stardeactivate.gameObject.SetActive(false);
 
         System.Array.Reverse(healthBarSprite);
+
+        rb = GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
@@ -164,7 +168,26 @@ public class playerController : MonoBehaviour {
             health = health - 1;
         }
 
+<<<<<<< HEAD
 
+=======
+        /*
+        if (other.gameObject.CompareTag("thwomp"))
+        {
+            //print("Points colliding: " + other.contacts.Length);
+            //print("First point that collided: " + other.contacts[0].point);
+            // If contact point is larger than mario's height, Mario will become flat.
+            if (other.contacts[0].point.y > rb.position.y)
+            {
+                Debug.Log("Mario wordt geplet door de Thwomp.");
+            }
+            else
+            {
+                Debug.Log("Mario wordt niet geplet door de Thwomp.");
+            }
+        }
+        */
+>>>>>>> 8bf65c07f8a19aac68c7837046acb2b1d50922ff
     }
 
     void Attack()
