@@ -168,9 +168,6 @@ public class playerController : MonoBehaviour {
             health = health - 1;
         }
 
-<<<<<<< HEAD
-
-=======
         /*
         if (other.gameObject.CompareTag("thwomp"))
         {
@@ -187,7 +184,6 @@ public class playerController : MonoBehaviour {
             }
         }
         */
->>>>>>> 8bf65c07f8a19aac68c7837046acb2b1d50922ff
     }
 
     void Attack()
@@ -242,7 +238,7 @@ public class playerController : MonoBehaviour {
     void setHealthText()
     {
         //healthText.text = "Health: " + health.ToString();
-       // healthBar.sprite = healthBarSprite[health];
+       healthBar.sprite = healthBarSprite[health];
     }
 
 }
