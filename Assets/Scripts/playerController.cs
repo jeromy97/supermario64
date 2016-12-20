@@ -23,7 +23,6 @@ public class playerController : MonoBehaviour {
     
     public Image healthBar;
     public Sprite[] healthBarSprite;
-    public star usestar;
 
     public float Turning = 0.0f;
 
@@ -49,7 +48,6 @@ public class playerController : MonoBehaviour {
         var stardeactivate = GameObject.FindWithTag("star");
         stardeactivate.gameObject.SetActive(false);
 
-    }
         System.Array.Reverse(healthBarSprite);
 	}
 	
@@ -144,20 +142,17 @@ public class playerController : MonoBehaviour {
             other.gameObject.SetActive(false);
             stars++;
             setStarText();
-            SceneManager.LoadScene("Castle", LoadSceneMode.Single);
+            SceneManager.LoadScene("HubLevel", LoadSceneMode.Single);
         }
 
-        if (other.gameObject.CompareTag("bomb"))
-        {
-            float dist = Vector3.Distance(other.gameObject.transform.position, transform.position);
-            print(dist);
-        }
+
 
 
     }
 
     void OnCollisionEnter(Collision other)
     {
+
         if (other.gameObject.CompareTag("green_mushroom"))
         {
             other.gameObject.SetActive(false);
@@ -168,6 +163,8 @@ public class playerController : MonoBehaviour {
         {
             health = health - 1;
         }
+
+
     }
 
     void Attack()
@@ -222,7 +219,7 @@ public class playerController : MonoBehaviour {
     void setHealthText()
     {
         //healthText.text = "Health: " + health.ToString();
-        healthBar.sprite = healthBarSprite[health];
+       // healthBar.sprite = healthBarSprite[health];
     }
 
 }

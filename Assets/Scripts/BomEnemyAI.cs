@@ -4,7 +4,7 @@ using System.Collections;
 public class BomEnemyAI : MonoBehaviour {
 
 
-	public float fpsTargetDistance;
+	public float TargetDistance;
 	public float enemyLookDistance;
 	public float attackDistance;
 	public float enemyMovingSpeed;
@@ -23,15 +23,15 @@ public class BomEnemyAI : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		fpsTargetDistance = Vector3.Distance(fpsTarget.position, transform.position);
-		if (fpsTargetDistance < enemyLookDistance)
+		TargetDistance = Vector3.Distance(fpsTarget.position, transform.position);
+		if (TargetDistance < enemyLookDistance)
 		{
 			myRender.material.color = Color.red;
 			lookAtPlayer();
 			print("Look at Player");
 		}
 
-		if (fpsTargetDistance < attackDistance)
+		if (TargetDistance < attackDistance)
 		{
 			attackplease();
 			print("ATTACK");
@@ -55,7 +55,20 @@ public class BomEnemyAI : MonoBehaviour {
 		transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * damping);
 	}
 
-	void attackplease()
+    void OnCollisionEnter(Collision other)
+    {
+
+
+        if (other.gameObject.CompareTag("Player"))
+        {
+            print("OnCollisionEnter " + other.gameObject.tag);
+            float dist = Vector3.Distance(other.gameObject.transform.position, transform.position);
+            print(dist);
+        }
+    }
+
+
+    void attackplease()
 	{
 		rb.AddForce(transform.forward * enemyMovingSpeed);
 
@@ -69,17 +82,27 @@ public class BomEnemyAI : MonoBehaviour {
 			//var exp = GetComponent<ParticleSystem>();
 			//exp.Play();
 
+            playerController.
+
 			Destroy(this.gameObject);
+
+            
             
 
         }
 
 
-	}
+    }
 
-    //enemy wander around//
 
-    public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask)
+
+
+
+
+
+//enemy wander around//
+
+public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask)
 	{
 		Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * distance;
 

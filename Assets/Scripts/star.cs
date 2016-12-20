@@ -15,11 +15,4 @@ public class star : MonoBehaviour {
 		transform.Rotate (new Vector3 (0, Time.deltaTime * rotate_speed, 0));
 	}
 
-
-    public void activate()
-    {
-        var stardeactivate = GameObject.FindWithTag("star");
-        stardeactivate.gameObject.SetActive(false);
-
-    }
 }
