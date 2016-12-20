@@ -64,20 +64,22 @@ public class BomEnemyAI : MonoBehaviour {
 		if(explosiontime > 0) 
 			explosiontime -= Time.deltaTime;
 		else {
+
 			
 			//var exp = GetComponent<ParticleSystem>();
 			//exp.Play();
 
 			Destroy(this.gameObject);
-		}
+            
+
+        }
 
 
 	}
 
+    //enemy wander around//
 
-	//enemy wander around//
-
-	public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask)
+    public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask)
 	{
 		Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * distance;
 

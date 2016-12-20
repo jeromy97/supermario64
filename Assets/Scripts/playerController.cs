@@ -11,6 +11,7 @@ public class playerController : MonoBehaviour {
     private int lifes;
     private int redCoins;
     private int health;
+    public GameObject star;
     
     private Animator anim;
 
@@ -23,7 +24,6 @@ public class playerController : MonoBehaviour {
     public Text healthText;
     
     public Image healthBar;
-
     public Sprite[] healthBarSprite;
     public star usestar;
 
@@ -47,6 +47,11 @@ public class playerController : MonoBehaviour {
         setRedCoinsText();
 
         anim = GetComponent<Animator>();
+
+        var stardeactivate = GameObject.FindWithTag("star");
+        stardeactivate.gameObject.SetActive(false);
+
+    }
         System.Array.Reverse(healthBarSprite);
 
         rb = GetComponent<Rigidbody>();
@@ -106,6 +111,11 @@ public class playerController : MonoBehaviour {
         setStarText();
     }
 
+    public void bomdamage()
+    {
+        health = health -= 20;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("coin"))
@@ -128,9 +138,7 @@ public class playerController : MonoBehaviour {
             if (redCoins >= 8)
             {
                 {
-
-                    usestar.activate();
-
+                    star.gameObject.SetActive(true);          
                 }
             }
         }
@@ -142,6 +150,14 @@ public class playerController : MonoBehaviour {
             setStarText();
             SceneManager.LoadScene("Castle", LoadSceneMode.Single);
         }
+
+        if (other.gameObject.CompareTag("bomb"))
+        {
+            float dist = Vector3.Distance(other.gameObject.transform.position, transform.position);
+            print(dist);
+        }
+
+
     }
 
     void OnCollisionEnter(Collision other)

@@ -30,7 +30,7 @@ public class npc : MonoBehaviour {
         {
             GUI.skin.box.wordWrap = true;
             print("sadsadsadadsads");
-            GUI.Box(new Rect(250,100, 200, 100), "im toad the toad give me your coins!");
+            GUI.Box(new Rect(250,100, 200, 100), "hoi");
             
         }
     }
