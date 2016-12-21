@@ -62,6 +62,20 @@ public class playerController : MonoBehaviour {
         {
             Attack();
         }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Pickup();
+        }
+
+        if (Input.GetKey(KeyCode.W) && !GetComponent<ThirdPersonCharacter>().m_IsGrounded)
+        {
+            Vector3 vec = transform.forward;
+            //vec -= this.transform.position;
+            vec.Normalize();
+            vec /= 15;
+            //GetComponent<Rigidbody>().velocity = Vector3.zero;
+            GetComponent<Rigidbody>().AddForce(vec, ForceMode.Impulse);
+        }
 
         LastJump += 1 * Time.deltaTime;
 
@@ -214,6 +228,61 @@ public class playerController : MonoBehaviour {
                 vec *= 15;
                 target.GetComponent<Rigidbody>().velocity = Vector3.zero;
                 target.GetComponent<Rigidbody>().AddForce(vec, ForceMode.Impulse); // target_.rigidbody.AddExplosionForce(force,target_.transform.position,10,0,ForceMode.Impulse); } 
+
+            }
+        }
+    }
+
+    void Pickup()
+    {
+        RaycastHit hit;
+
+        if (transform.FindChild("Grabpos").childCount > 0)
+        {
+            //Gooi
+            Debug.Log("GOOII");
+            Transform grabbed = transform.FindChild("Grabpos").GetChild(0);
+
+            //grabbed.transform.parent = null;
+            transform.FindChild("Grabpos").SetParent(null, true);
+            grabbed.GetComponent<GoombaController>().enabled = true;
+            grabbed.GetComponent<Rigidbody>().detectCollisions = true;//
+            grabbed.GetComponent<Rigidbody>().isKinematic = false;//
+
+            grabbed.transform.rotation = transform.rotation;
+            Vector3 vec = grabbed.transform.position;
+            vec -= this.transform.position;
+            vec.Normalize();
+            vec *= 15;
+            grabbed.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            grabbed.GetComponent<Rigidbody>().AddForce(vec, ForceMode.Impulse);
+        }
+        else if (Physics.Raycast(transform.FindChild("Eyes").position, transform.FindChild("Eyes").forward, out hit, 0.4f))
+        {
+            GameObject target = hit.collider.gameObject;
+            print("WE TRIED TO PICK " + target.name + " UP");
+            //print("WE TRIED TO PICK " + target.transform.parent + " UP");
+            Health health = target.GetComponent<Health>();
+            if (health != null)
+            {
+                health.TakeDamage(50);
+            }
+
+            if (target.tag.ToString() == "Goomba")
+            {
+                print("HET IS EEN GOOMBA VERDOMME");
+                target.transform.parent = transform.FindChild("Grabpos").transform;
+                target.GetComponent<GoombaController>().enabled = false;
+                target.GetComponent<Rigidbody>().detectCollisions = false;//
+                target.GetComponent<Rigidbody>().isKinematic = true;//
+
+                //target.transform.rotation = transform.rotation;
+                //Vector3 vec = target.transform.position;
+                //vec -= this.transform.position;
+                //vec.Normalize();
+                //vec *= 15;
+                //target.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                //target.GetComponent<Rigidbody>().AddForce(vec, ForceMode.Impulse); // target_.rigidbody.AddExplosionForce(force,target_.transform.position,10,0,ForceMode.Impulse); } 
 
             }
         }
