@@ -64,6 +64,7 @@ public class playerController : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
+            Debug.Log("E");
             Pickup();
         }
 
@@ -236,15 +237,15 @@ public class playerController : MonoBehaviour {
     void Pickup()
     {
         RaycastHit hit;
-
+        Debug.Log(transform.FindChild("Grabpos").childCount.ToString());
         if (transform.FindChild("Grabpos").childCount > 0)
         {
             //Gooi
             Debug.Log("GOOII");
             Transform grabbed = transform.FindChild("Grabpos").GetChild(0);
 
-            //grabbed.transform.parent = null;
-            transform.FindChild("Grabpos").SetParent(null, true);
+            grabbed.transform.SetParent(null, true);
+            //transform.FindChild("Grabpos").SetParent(null, true);
             grabbed.GetComponent<GoombaController>().enabled = true;
             grabbed.GetComponent<Rigidbody>().detectCollisions = true;//
             grabbed.GetComponent<Rigidbody>().isKinematic = false;//
@@ -257,16 +258,11 @@ public class playerController : MonoBehaviour {
             grabbed.GetComponent<Rigidbody>().velocity = Vector3.zero;
             grabbed.GetComponent<Rigidbody>().AddForce(vec, ForceMode.Impulse);
         }
-        else if (Physics.Raycast(transform.FindChild("Eyes").position, transform.FindChild("Eyes").forward, out hit, 0.4f))
+        else if (Physics.Raycast(transform.FindChild("Eyes").position, transform.FindChild("Eyes").forward, out hit, 1f))
         {
             GameObject target = hit.collider.gameObject;
             print("WE TRIED TO PICK " + target.name + " UP");
             //print("WE TRIED TO PICK " + target.transform.parent + " UP");
-            Health health = target.GetComponent<Health>();
-            if (health != null)
-            {
-                health.TakeDamage(50);
-            }
 
             if (target.tag.ToString() == "Goomba")
             {
@@ -285,6 +281,10 @@ public class playerController : MonoBehaviour {
                 //target.GetComponent<Rigidbody>().AddForce(vec, ForceMode.Impulse); // target_.rigidbody.AddExplosionForce(force,target_.transform.position,10,0,ForceMode.Impulse); } 
 
             }
+        }
+        else
+        {
+            Debug.Log("No goomba :(");
         }
     }
 
